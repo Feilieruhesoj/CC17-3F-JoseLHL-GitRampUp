@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutJoseActivity">
+    tools:context=".AboutJaneActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,33 +14,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jane Doe"
+            android:textSize="60sp"
+            />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Jose, Leif Hurei"
-                android:textSize="51sp"
+                android:text="ZZZ"
+                android:textSize="48sp"
                 />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="'Constipated'"
-                android:textSize="32sp"
-                android:textStyle="italic" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="If laziness is a sin then consider me a devil"
-                android:textAlignment="center"
-                android:textSize="20sp" />
+                android:text="Jane, a criminal behavior specialist, has had a 'colorful' career as a consultant with Public Security over the years.
+She is an expert in disguise, infiltration, and other investigative work.
+She has a bad habit of trolling others and sometimes plays harmless pranks.
+She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the 'real' Jane is like."
+                android:textSize="20sp"
+                />
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/procrastination"
+                android:src="@drawable/agent_jane_doe_portrait"
                 />
         </LinearLayout>
 

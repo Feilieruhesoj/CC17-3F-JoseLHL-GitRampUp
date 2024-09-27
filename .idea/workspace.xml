@@ -10,6 +10,16 @@
           <theme>@style/Theme.CC173fjoselhlGitRampUp</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_jane.xml">
+        <config>
+          <theme>@style/Theme.CC173fjoselhlGitRampUp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_jose.xml">
+        <config>
+          <theme>@style/Theme.CC173fjoselhlGitRampUp</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.CC173fjoselhlGitRampUp</theme>
@@ -21,7 +31,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cfa77eb-6b14-4934-8a14-ada64f0cb83b" name="Changes" comment="Add recycler view for list about me" />
+    <list default="true" id="8cfa77eb-6b14-4934-8a14-ada64f0cb83b" name="Changes" comment="Add show more page for Jose's about me">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cc17_3f_joselhl_gitrampup/AboutJaneActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/agent_jane_doe_portrait.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/jane_doe_build.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_jane.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cc17_3f_joselhl_gitrampup/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cc17_3f_joselhl_gitrampup/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +54,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CC17-3f-joselhl-GitRampUp" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CC17-3f-joselhl-GitRampUp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CC17-3f-joselhl-GitRampUp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CC17-3f-joselhl-GitRampUp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -47,18 +103,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Feilieruhesoj"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Feilieruhesoj&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Feilieruhesoj/CC17-3F-JoseLHL-GitRampUp.git",
-    "accountId": "92978c30-a3b7-4878-b745-d14d270292ad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Feilieruhesoj/CC17-3F-JoseLHL-GitRampUp.git&quot;,
+    &quot;accountId&quot;: &quot;92978c30-a3b7-4878-b745-d14d270292ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -77,7 +133,8 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PC/Documents/GitHub/CC17-3F-JoseLHL-GitRampUp"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -85,6 +142,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.-1880108710">
+      <recent name="com.example.cc17_3f_joselhl_gitrampup" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="CC17-3f-joselhl-GitRampUp.app.main" />
@@ -194,12 +256,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727446304170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add recycler view for list about me">
+      <option name="closed" value="true" />
+      <created>1727446417623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727446417623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add show more page for Jose's about me">
+      <option name="closed" value="true" />
+      <created>1727447684360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727447684360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add recycler view for list about me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add recycler view for list about me" />
+    <MESSAGE value="Add show more page for Jose's about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add show more page for Jose's about me" />
   </component>
 </project>

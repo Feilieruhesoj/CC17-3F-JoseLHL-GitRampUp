@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         rvAboutMe.layoutManager = LinearLayoutManager(this)
 
 
-        val aboutMe1 = AboutMe(R.mipmap.ic_launcher,
+        val aboutMe1 = AboutMe(R.drawable.leif,
             "Jose Leif Hurei L.",
             "short desc",
             { view ->
@@ -34,10 +34,15 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val aboutMe2 = AboutMe(R.mipmap.ic_launcher,
+        val aboutMe2 = AboutMe(R.drawable.jane_doe_build,
             "Jane Doe",
             "ZZZ",
-            {/*TODO*/})
+            {view->
+                val intent = Intent(this, AboutJoseActivity:: class.java)
+                startActivity(intent)
+            })
+
+
 
         val arrlist = listOf(aboutMe1, aboutMe2)
 
